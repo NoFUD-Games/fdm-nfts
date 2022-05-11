@@ -1,0 +1,10 @@
+{
+"Description": "One of 128 almost indestrcutable super ancient keys of super duper dopeness forged in the firey pits of fire.",
+"name": "Super Ancient Key of Super Duper Dopeness",
+"attributes":[
+	{"trait_type": "Uses","value":1000000000, "max_value": 1000000000},
+	{"trait_type": "Sex Appeal","value":1, "max_value": 10},
+	{"trait_type": "Level", "value":1, "display_type": "number"}
+],
+"image": "ipfs://bafkreifw4grmixodhtiux2i25ocoeiwaspseme7gcuilsqlntedl5n3bi4"
+}
