@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: CC0
+// @custom:security-contact sec@fdnm[dot]land 
+//
 // $FDM                                   |
 //                                      \ _ /
 //                                    -= (_) =-
@@ -10,6 +12,7 @@
 //  .|'' . |  '''""'"''. |`===`|''  '"" "" " (" ~~~~ ~ ~======~~  ~~ ~
 // ^^^^^   ^^^ ^ ^^^ ^^^^ ^^^ ^^ ^^ "" """( " ~~~~~~ ~~~~~  ~~~ ~
 pragma solidity ^0.8.4;
+
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -24,7 +27,7 @@ contract fdmKey is ERC721, ERC721Enumerable, ERC721URIStorage, Pausable, Ownable
     Counters.Counter private _tokenIdCounter;
     uint public constant MAX_SUPPLY = 128;
     bytes4 private constant _INTERFACE_ID_ERC2981 = 0x2a55205a;
-    constructor() ERC721("Super Ancient Key of Super Duper Dopeness","FKEYA") {}
+    constructor() ERC721("$FDM | Super Ancient Key | Item ","FITM") {}
 //Pausable Code - For NoFudGames Admin Purposes
     function pause() public onlyOwner {
         _pause();
